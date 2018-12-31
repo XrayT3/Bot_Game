@@ -15,7 +15,7 @@ import texts
 logging.basicConfig(format=u'%(filename)s[LINE:%(lineno)d]# %(levelname)-8s [%(asctime)s]  %(message)s',
                     level=logging.DEBUG)
 
-token = '346023811:AAERJkszYOwf1K5Yjnq1F3gtXTLQasvXcjo'
+token = ''
 bot = telebot.TeleBot(token)
 upd = Updater(token)
 queue = upd.job_queue
